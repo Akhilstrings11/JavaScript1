@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Write a program for employee details like ename, eage, basicsal, totalsal, hra, pf and department calculate total salary?</h1>
+</body>
+<script>
+    var ename = "Akhil"
+    var eage = 23
+    var gender = "Male"
+    var dept = "IT"
+    var basicsal = 15000
+
+    var totalsal, hra, pf
+    pf = 13/100 * basicsal;
+    hra = 25/100 * basicsal;
+    totalsal = hra + basicsal + pf;
+
+    console.log("PF is :- " + pf)
+    console.log("HRA is :- " + hra)
+    console.log("Totalsal :- " + totalsal)
+
+    // Type of Method
+    console.log('-----Typeof-----')
+
+    var num = 10;
+    var name = 'Akhil'
+    console.log( typeof num, typeof name)
+
+    // Type Casting
+    console.log('-----Type Casting-----')
+
+    var tcNum = "23"
+    var tcName = "Akhil"
+    console.log(typeof tcNum)
+    tcNum = parseInt (tcNum)
+    console.log(typeof tcNum)
+
+    // Control Structures
+    console.log("-----Control Structures-----")
+    
+
+</script>
+</html>
